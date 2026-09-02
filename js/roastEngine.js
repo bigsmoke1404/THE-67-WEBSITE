@@ -15,7 +15,9 @@ const roasts = [
     "Are you expecting an award?",
     "Every click removes a brain cell.",
     "The simulation is testing you, and you're failing.",
-    "This is peak internet. You've peaked."
+    "This is peak internet. You've peaked.",
+    "Bro is getting styled on by a two-digit number.",
+    "You have successfully wasted another minute of your life."
 ];
 
 const clickRoasts = [
