@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /escape
+Disallow: /cure
+
+# 67 is everywhere.
+Sitemap: https://bigsmoke1404.github.io/THE-67-WEBSITE/sitemap.xml
