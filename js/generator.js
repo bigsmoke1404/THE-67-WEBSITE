@@ -13,7 +13,9 @@ const traits = [
     "built different",
     "crying inside",
     "aware",
-    "lost in the sauce"
+    "lost in the sauce",
+    "financially ruined",
+    "down bad"
 ];
 
 export class Generator {
