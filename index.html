@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE 67 WEBSITE</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="noise-overlay"></div>
+    <div id="chaos-container"></div>
+    
+    <div id="cursor-trail-container"></div>
+
+    <main id="main-content">
+        <header class="hero-section">
+            <h1 class="glitch giant-67" data-text="67">67</h1>
+            <p class="subtitle">You clicked this website. That was your first mistake.</p>
+            <p class="warning pulse">67 has been detected.</p>
+            
+            <button id="main-btn" class="danger-btn">
+                <span>DON'T CLICK</span>
+            </button>
+            <p id="roast-text" class="roast-text"></p>
+        </header>
+
+        <section class="dashboard">
+            <h2 class="glitch" data-text="YOUR 67 ANALYTICS">YOUR 67 ANALYTICS</h2>
+            <div class="stats-grid" id="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-label">67 Exposure</span>
+                    <span class="stat-value" id="stat-exposure">67%</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Brain Cells Remaining</span>
+                    <span class="stat-value" id="stat-braincells">67</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Chance of Escaping</span>
+                    <span class="stat-value" id="stat-escape">0%</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">67 Addiction</span>
+                    <span class="stat-value" id="stat-addiction">67%</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Dignity</span>
+                    <span class="stat-value" id="stat-dignity">3%</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Reason for Being Here</span>
+                    <span class="stat-value" id="stat-reason">Unknown</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Time Wasted</span>
+                    <span class="stat-value" id="stat-time">0s</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Clicks</span>
+                    <span class="stat-value" id="stat-clicks">0</span>
+                </div>
+            </div>
+            <p id="stats-roast" class="stats-roast"></p>
+        </section>
+
+        <section class="generator-section">
+            <h2>GENERATE YOUR 67</h2>
+            <button id="generate-btn" class="action-btn">GENERATE</button>
+            <div id="generator-results" class="generator-results"></div>
+        </section>
+        
+        <div class="logo-container" id="logo-trigger">
+            <span>67</span>
+        </div>
+    </main>
+
+    <!-- Final Modal -->
+    <div id="final-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2 class="glitch" data-text="FINAL 67 ANALYSIS">FINAL 67 ANALYSIS</h2>
+            <h1 class="giant-67">67</h1>
+            <p>We've analyzed your behavior.</p>
+            <p id="final-personalized-roast" class="personalized-roast"></p>
+            <h1 class="glitch red-text" data-text="YOU GOT 67'D 💀">YOU GOT 67'D 💀</h1>
+            <p>There is no cure.</p>
+            <button id="escape-btn" class="danger-btn">ESCAPE</button>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
